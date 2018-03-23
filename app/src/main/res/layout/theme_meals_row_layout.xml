@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/openThemeMealLayout"
+        android:layout_centerVertical="true"
+        >
+
+    <TextView
+        android:id="@+id/themeMealTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:text="Tap For Details"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/openThemeMealLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/openThemeMeal"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openThemeMeal"
+            android:layout_alignStart="@+id/openThemeMeal"
+            android:layout_alignEnd="@+id/openThemeMeal"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:text="Open"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

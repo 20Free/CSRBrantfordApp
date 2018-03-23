@@ -1,0 +1,239 @@
+<resources>
+	<!--
+	&   &amp;
+	<   &lt;
+	>   &gt;
+	"   &quot;
+	'   &apos;-->
+
+	<!-- this is the strings resource file for the Android CSR Brantford App-->
+
+	<!-- video link -->
+	<string name="videos_remote_url">https://ranch.video/app/brantford/data/videos.json</string>
+	
+	<!-- photos strings -->
+	<string name="flickr_photoset_list">https://api.flickr.com/services/rest/?method=flickr.photosets.getList&amp;api_key=08ef037f24950a7a5a23758f48ae7267&amp;user_id=143522019%40N03&amp;format=json&amp;nojsoncallback=1</string>
+	<string name="flickr_photoset_images_first">https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&amp;api_key=08ef037f24950a7a5a23758f48ae7267&amp;photoset_id=</string>
+	<string name="flickr_photoset_images_second">&amp;format=json&amp;nojsoncallback=1</string>
+	
+	<!-- news strings -->
+	<string name="news_base_url">https://www.googleapis.com/blogger/v2/blogs/2010028229618735580/posts</string>
+	<string name="blogger_api_key">?key=AIzaSyBaQqbwhdYKb6OlWWxCFG-3e7ngL86POvA</string>
+	<string name="default_post_title">An Update From The Ranch</string>
+	<string name="default_post_image_title">camp_news</string>
+	
+	<!-- what we offer strings -->
+	<!-- item form: name_of_section|name_of_item|description_of_item -->
+	<string-array name="camp_info_strings">
+		<item>Discovery Camp Ages 8-16|Discovery / Co-ed 8-14|Campers will be challenged by our fun activities!  Our horsemanship program, swimming, archery, zip line, and high and low ropes courses make every day one to remember. They will enjoy time with new and old friends at theme meals and cookouts. Campers will spend time exploring the Bible with our caring and knowledgeable staff.</item>
+		<item>Discovery Camp Ages 8-16|Discovery Day Camp / Co-ed 10-13|Campers aged 10–13 years old will experience all the adventures of summer camp in our fun day camp setting. Packed full of excitement, this camp includes recreational horseback riding, swimming, archery, zip line, high and low ropes courses, and more. We also spend time each day learning about following Jesus.
+Campers can be dropped off between 8 and 8:45 am and picked up between 5 and 5:15 pm. Lunch meal plans may be purchased in advance, or you can bring your own lunch and snacks. Extended Wednesday programming is available. Please contact us for more information.</item>
+		<item>Discovery Camp Ages 8-16|Discovery Teen Week / Co-ed 14-16|Special events and late night activities help make teen week one of the best of the summer.  Of course we offer all of our great activities for teen week, but the highlight of the week will be making memories with old and new friends.  Campers will spend time exploring the Bible with our caring and knowledgeable staff.</item>
+		<item>Discovery Camp Ages 8-16|All Girls / Ages 8-13|Our All Girls weeks are jam packed with lots of girl-powered activities and fun extras.  All the favorite camp activities are offered during Girls Week.  Campers will spend time exploring the Bible with our caring and knowledgeable staff.</item>
+		<item>Junior Camp Ages 6-9|Junior Camp Ages 6-9|Junior Camp offers a wide range of activities and skills development, including horseback riding, swimming, and crafts. We also have an archery range, climbing wall and low ropes. During daily Bible devotionals and campfires our staff members share their stories of following Jesus Christ and give campers an opportunity to explore faith.</item>
+		<item>Day Camp Ages 5-13|Day Camp / Co-ed 5-10|Our Day Camp program includes horseback riding, swimming, crafts, wall climbing, archery, nature activities, recreational games, and a Bible devotional.
+Campers may be dropped off between 8 and 8:45 am and picked up between 5 and 5:15 pm. Lunch meal plans may be purchased in advance or you may bring your own lunch and snacks. Extended Wednesday programming is available for select weeks.</item>
+		<item>Day Camp Ages 5-13|Extreme Discovery Day Camp / Co-ed 10-13|Campers aged 10–13 years old will experience all the adventures of summer camp in our fun day camp setting. Packed full of excitement, this camp includes recreational horseback riding, swimming, archery, zip line, high and low ropes courses, and more. We also spend time each day learning about following Jesus through staff-led discussions.
+Campers may be dropped off between 8 and 8:45 am and picked up between 5 and 5:15 pm. Lunch meal plans may be purchased in advance at an extra cost or you may bring your own lunch and snacks. Extended Wednesday programming is available for select weeks. Please contact us for more information.</item>
+		<item>Day Camp Ages 5-13|Extreme Adventure Day Camp / Co-ed 9-13|A day camp for 9-13 year olds who want to spend extra time at our adventure activities.  This camp includes two daily hours of adventure activities (high ropes, zip lining and wall climbing) and two daily activities chosen by the camper. We also spend time each day learning about following Jesus.
+Campers may be dropped off between 8 and 8:45 am and picked up between 5 and 5:15 pm. Lunch meal plans may be purchased in advance or you may bring your own lunch and snacks. Up to two trail rides can be added for your camper for an additional fee.  Riding spots are limited and may be purchased on a first come, first served basis.</item>
+		<item>Day Camp Ages 5-13|Extreme Horse Day Camp / Co-ed 9-13|A day camp for 9–13 year olds who want to spend extra time with the horses.  Campers will spend two hours at the barn every day, riding for an hour and learning about and helping to care for horses for the second hour.  Up to two additional trail rides can be added for your camper for an additional fee.  Riding spots are limited and may be purchased on a first come, first served basis.  Campers will also choose two additional activities daily.  We also spend time each day learning about following Jesus through staff-led discussions.
+Campers may be dropped off between 8 and 8:45 am and picked up between 5 and 5:15 pm. Lunch meal plans may be purchased in advance or you may bring your own lunch and snacks.</item>
+		<item>Boys’ Camps Ages 8-15|252 Crew / Ages 14-15|The 252 Crew program offers youth 14 to 15 years old an opportunity to be a camper and learn what it’s like to work at camp. This unique program is designed to develop your leadership abilities as you serve at camp from a ‘behind-the-scenes’ vantage point.  Learn about God and grow in community with friends and leaders as you serve at camp.</item>
+		<item>Boys’ Camps Ages 8-15|All Boys’ Camp / Ages 8-12|This is camp designed especially for boys ages 8-12. All of the great activities of Circle Square – zip-line, archery, and wall climbing – will be offered with a boys-only twist. Cookouts, camp-outs, and shelter building are just some of the great adventures waiting for you! Plus, learn what God has to say about being a guy and what a relationship with him could look like by getting to know our staff team. This high-energy camp is offered twice during the summer.</item>
+		<item>Girls’ Camps Ages 6-15|Discovery Girls’ / Ages 8-13|Our All Girls weeks are jam packed with lots of girl-powered activities and fun extras.  All the favorite camp activities are offered during Girls Week.  Campers will spend time exploring the Bible with our caring and knowledgeable staff.</item>
+		<item>Girls’ Camps Ages 6-15|Horse Lover’s / Ages 8-13|Our Horse Lovers camp session gives campers two hours a day to develop their Western riding skills and work on our 5-star horsemanship program.  Theme meals, group games, campfires and cookouts make the week extra fun! Campers will also have the opportunity to explore what a relationship with God could look like through interactive campfire times and Bible studies.</item>
+		<item>Girls’ Camps Ages 6-15|Equestrian / Intermediate|Our equestrian camp is the perfect place for kids who love horses.  Campers participate in one hour of Western instruction, one hour of English instruction and one hour of recreational riding a day.  It is recommended that campers have 50 hours of riding instruction to attend the intermediate camp.  The remainder of the day is filled with additional camp activities. Please contact the office to determine what level of equestrian camp is right for you.</item>
+		<item>Girls’ Camps Ages 6-15|Junior Girls’ / Ages 6-9|Specially designed for girls ages 6–9, this camp offers a wide range of activities and skills development, including horseback riding, swimming, and crafts. We also have an archery range, climbing wall and zip line. During daily Bible devotionals and campfires our staff members share their stories of following Jesus Christ and give campers an opportunity to explore faith. We also offer co-ed Junior Camps.</item>
+		<item>Horse Specialty Camps Ages 8-16|Horse Lover’s Camp / Co-ed 8-16|Our Horse Lovers camp session gives campers two hours a day to develop their Western riding skills and work on our 5-star horsemanship program.  Theme meals, group games, campfires and cookouts make the week extra fun! Campers will also have the opportunity to explore what a relationship with God could look like through interactive campfire times and Bible studies.</item>
+		<item>Horse Specialty Camps Ages 8-16|Extreme Horse Day Camp / Co-ed 9-13|A day camp for 9–13 year olds who want to spend extra time with the horses.  Campers will spend two hours at the barn every day, riding for an hour and learning about and helping to care for horses for the second hour.  Up to two additional trail rides can be added for your camper for an additional fee.  Riding spots are limited and may be purchased on a first come, first served basis.  Campers will also choose two additional activities daily.  We also spend time each day learning about following Jesus through staff-led discussions.
+Campers may be dropped off between 8 and 8:45 am and picked up between 5 and 5:15 pm. Lunch meal plans may be purchased in advance or you may bring your own lunch and snacks.</item>
+		<item>Horse Specialty Camps Ages 8-16|Equestrian Foundation Riding Camps|Foundation Riding Camps are suitable for riders who are in their first 50 hours of riding instruction. Campers will learn to catch, groom and saddle their horse. Campers participate in one hour of Western instruction, one hour of English instruction and one hour of recreational riding a day.  They will build confidence as they work on equitation at a walk and jog. The remainder of the day is filled with additional camp activities. Please contact the office to determine what level of equestrian camp is right for you.</item>
+		<item>Horse Specialty Camps Ages 8-16|Equestrian Intermediate Riding Camps|Our equestrian camp is the perfect place for kids who love horses.  Campers participate in one hour of Western instruction, one hour of English instruction and one hour of recreational riding a day.  It is recommended that campers have 50 hours of riding instruction to attend the intermediate camp.  The remainder of the day is filled with additional camp activities. Please contact the office to determine what level of equestrian camp is right for you.</item>
+		<item>Horse Specialty Camps Ages 8-16|Equestrian Advanced Riding Camp|Advanced Riding Camp is intended to polish the skills of accomplished riders who are already confident at a walk, jog/trot and lope/canter. Campers will fine-tune their communication while riding, working on extension and collection, learning trail patterns, and up to 2′ 3″ jumping courses. Campers must be accepted into this level of riding camp. Please contact the office by phone or email to discuss if this is the right camp for your child. A video of your child riding may be necessary if you live too far away to come in for a riding assessment.</item>
+	</string-array>
+	
+	<!-- contact and directions strings -->
+	<string name="camp_name">Circle Square Ranch - Brantford</string>
+	<string name="camp_name_link">Circle+Square+Ranch+-+Brantford</string>
+	<string name="camp_website_url">http://www.csranch.ca/brantford</string>
+	<string name="intervarsity_url">https://www.ivcf.ca</string>
+	<string name="instagram_url">https://www.instagram.com/csrbrantford/</string>
+	<string name="instagram_app_url">instagram://user?username=csrbrantford</string>
+	<string name="facebook_url">https://www.facebook.com/circlesquarebrantford/</string>
+	<string name="facebook_app_url">fb://profile/157827137602505</string>
+	<string name="twitter_url">https://twitter.com/csrbrantford</string>
+	<string name="twitter_app_url">twitter://user?id=104532621</string>
+	<string name="camp_address">1645 Colborne St E.
+Brantford, On N3T 5L4</string>
+	<string name="camp_address_link">1645+Colborne+St+E+Brant+Ontario</string>
+	<string name="camp_phone">(519) 754 - 0171</string>
+	<string name="camp_phone_link">5197540171</string>
+	<string name="camp_email">brantford@csranch.ca</string>
+		<!-- affiliations -->
+		<string-array name="affiliations">
+		<item>oefLogo</item>
+		<item>ocaLogo</item>
+		<item>cciLogo</item>
+	
+	<!-- FAQs strings -->
+	<!-- item form: name_of_section|name_of_item|description_of_item|link_of_item -->
+	<string-array name="faqs_strings">
+	<item>Registration &amp; Camper Fees|How to register for camp|You can register online for camp today!  Tap to open our easy online registration.|http://csranch.ca/brantford/summer-camp/register-here/</item>
+	<item>Registration &amp; Camper Fees|Is there financial assistance available to help cover camper fees?|Financial assistance is available for those who qualify. Assistance is at the discretion of the Director. Contact the office for information and a scholarship application. The deadline for applications is June 1, 2016.</item>
+	<item>Registration &amp; Camper Fees|What happens if I cancel my registration after paying?|If you cancel more than two weeks prior to the start of camp, you will get a full refund less $75/week administration fee. If you cancel less than two weeks prior to the start of camp, you will get NO REFUND except for medical reasons with a note from a doctor. In that case, you will get a full refund less $75/week administration fee. No refund will be made for dismissals due to disciplinary action, late arrivals or early departures.</item>
+	<item>Registration &amp; Camper Fees|What is NOT included in the camp fee?|The camp fee does not include transportation to and from the Ranch, canteen purchases, Week in Review DVD or email credits. In some circumstances, weekend accommodations may be arranged for two-week campers. Please contact the ranch office for fees and details.</item>
+	<item>Life at Camp|What does a typical day of camp look like?|Campers rotate throughout the day to the different activities relative to their camp session. As long as the weather co-operates, all campers swim and ride horses daily with the exception of some of our specialty camps. All overnight campers participate in a large camp game after dinner and finish the day with a fun and meaningful campfire.</item>
+	<item>Life at Camp|Where do campers sleep?|The campers sleep in covered wagons or cabins that sleep 8-14. All have mattresses and electricity. Campers attending in August are encouraged to bring extra blankets due to cooler weather.</item>
+	<item>Life at Camp|How much time do campers spend with the horses?|Discovery, Junior, and Day Campers ride for one activity period each full day of camp. Horse Lover’s and Extreme Horse Day Campers spend two hours a day riding, and Equestrian campers spend three hours a day riding. Our specialty Boys Camp and Leadership Development camps (252, Route 4:13, LIT) do not feature daily riding, but they will have the opportunity to ride at least once during their camp session. Discovery camp offers a level riding program, trail riding, and barn and tack care. Junior and Day Camp ride in a non-level riding program.</item>
+	<item>Life at Camp|What kind of meals will my child receive?|Quality, nutritional meals are provided with a variety of healthy snack options at Canteen times. Drinking water is lab analyzed regularly for quality.</item>
+	<item>Life at Camp|Do you have a lost and found?|Yes we do. To help reduce lost and found items we ask that all possessions brought to camp be labelled.  Lost and found items will be accessible at sign out on Saturday. We will hold lost and found items for one month following camp. If not claimed by then, we will donate appropriate items to a local charity. Campers are encouraged not to bring valuable clothing or possessions. Circle Square Ranch is not responsible for lost, damaged or stolen items.</item>
+	<item>Life at Camp|How do I see photos of my camper?|We take photos of what is going on during the week for all overnight camps. Pictures from your week of camp will be available online. To see them, go to www.brantfordcirclesquare.ca/photos and click on “Sign-in for weekly camper photos”. You will then be prompted to log in using the same account you used to register online. If you do not have an account yet, create an account and then notify our office that you would like access to the photo page. We will do our best to post as many photos as we can, two or three times during the week. We think it is important for you to remember that while photos can be a great insight into what is generally happening at camp, a single snapshot should not be used as an assessment tool as to how your children are doing at camp.</item>
+	<item>Life at Camp|Circle Square Ranch is a Christian camp. What does that mean for my child’s experience?|Circle Square Ranch welcomes campers and families from all backgrounds and religious beliefs. We provide a non-denominational Christian environment for children and youth.  We hold core beliefs of the Christian faith that we present in age-appropriate ways to campers. Campers never have beliefs forced upon them but are invited to consider issues of life and faith from a Christian perspective.</item>
+	<item>Life at Camp|Who owns Circle Square Ranch?|Circle Square Ranch is owned and operated by Inter-Varsity Christian Fellowship of Canada. Inter-Varsity has been operating summer camps and year-round outdoor educational programs for more than 80 years. We operate nine summer camps across Canada under the names of Pioneer Camp and Circle Square Ranch.</item>
+	<item>Our Caring Staff|What is your approach to children and the camping experience?|As part of Inter-Varsity Camps, we believe that summer camp offers an opportunity for children and teens to grow and mature emotionally, socially and spiritually. At Circle Square Ranch, campers are respected as individuals, challenged and encouraged in all aspects of life, and given the opportunity to experience and develop authentic relationships with peers and leaders.  We believe that providing a safe environment for campers will give them the opportunity to have a meaningful and fun camping experience.</item>
+	<item>Our Caring Staff|What qualifications does the camp Director and leadership team have?|The camp directors have more than 20 years’ experience working with Circle Square Ranch as well as numerous years’ experience in the area of youth ministry. Our summer leadership team consists of individuals with previous camping experience as well as specific skills and training in their area of responsibility.</item>
+	<item>Our Caring Staff|What is the camper to staff ratio?|The overall camper to staff ratio is four to one. A wagon or cabin of 6-9 campers has a cabin leader and, if space permits, a co-leader. Two leaders are responsible for each travel group of 16 and there are instructors at each activity that they attend. Trained leaders supervise all activities.</item>
+	<item>Communicating with my Camper|Can my child call home?|While we do not encourage campers to use the telephone, if a call home is requested and considered necessary by the director, the camper will be allowed to call.</item>
+	<item>Communicating with my Camper|Should I send letters and parcels to my child?|Yes! Your camper will enjoy hearing from home while they are at camp. There is a daily (Monday to Friday) ‘Pony Express’ for camper’s mail delivery. There will be a drop box at registration where you can put mail (letters and small, nut-free parcels) for your child. Please indicate your child’s name, which camp session they are registered for, and what day their mail is to be delivered. Canada Post also delivers mail to the ranch daily and we distribute any camper mail. You may also purchase email credits and send emails to your camper. To do this, follow the link on our website. Email credit accounts take one business day to activate.</item>
+	<item>Communicating with my Camper|How do you handle homesick campers?|Our friendly atmosphere and understanding staff help campers overcome the natural fears and concerns of being away from home. Getting kids involved in the program and making new friends helps campers feel welcomed and safe at camp.  It is our goal to make their stay at Circle Square Ranch as enjoyable as possible. The camp Director will spend time with any homesick child and, if necessary call the parent. With that in mind, we encourage parents and family not to visit during the week. If a child is homesick, a visit by family is usually not helpful. As well, other campers who are feeling homesick and are aware of the visit may request similar privileges and in most cases, this is not possible. We encourage family to spend as much time on arrival as they feel necessary.</item>
+	<item>What should my Camper bring to Camp?|Is there a candy or souvenir store on the property?|Yes, the Canteen (small camp store) is open daily for campers to purchase a snack. It includes things such as chocolate bars, slushies, chips, candy, granola bars, yogurt, fruit and pop. If you’d prefer, you are welcome to send snacks from home as long as they are nut-free. Canteen money is checked in at registration with any leftover money returned to your child when you sign them out. The Canteen will be open on registration and sign-out day for your child to buy souvenirs. We suggest a weekly amount of $20-$30 for overnight campers and $15-$20 for day campers.</item>
+	<item>What should my Camper bring to Camp?|What shouldn’t you bring to camp?|Please do not bring chewing gum, electronic devices (cell phones, iPods, mp3 players, portable game systems, etc.) or inappropriate reading materials to camp, if brought, these items will be held in the office for the week. Do not bring anything valuable to camp, as occasionally things do get lost or broken.</item>
+	<item>What should my Camper bring to Camp?|Why can’t campers bring their cell phones to camp?|Days at camp are very busy and technology can get in the way of creating meaningful experiences and developing new friendships. Campers may also lose or break their phones while they are at camp. If your child regularly uses their cell phone for an alarm clock or camera, we recommend bringing a cheap camera and alarm clock instead. *Please refer to camp specific information package for policies on cell phones and electronic devices for Teen Week, Route 4:13, 252, and LIT campers.  Camp information packages are emailed upon registration.</item>
+	<item>What should my Camper bring to Camp?|252 Crew: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/252-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Boys&apos; Camp: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Boys-Camp-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Day Camp: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Day-Camp-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Discovery Camp: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Discovery-and-Horse-Lovers-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Equestrian: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Equestrian-Camp-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Extreme Day Camp: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Extreme-Day-Camp-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Girls&apos; Camp: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Discovery-and-Horse-Lovers-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Horse Lover&apos;s: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Discovery-and-Horse-Lovers-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Junior Camp: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Junior-Camp-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|LIT - Leaders In Training: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/LIT-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Route 4:13: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Route-413-Info-Pack.pdf</item>
+	<item>What should my Camper bring to Camp?|Teen Week: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Teen-Week-Discovery-Horse-Lovers-Info.pdf</item>
+	<item>What should my Camper bring to Camp?|Teen Week Equestrian: Info &amp; Packing Lists|Tap To Open Camp Information|http://csranch.ca/brantford/wp-content/themes/Nova/pdf/Teen-Week-Equestrian-Info-Pack.pdf</item>
+	<item>The Health &amp; Safety of my Camper|Does the camp have a risk management plan?|Yes. Because a high level of care for campers is important to us, the operation of all activities and facilities where campers could potentially experience injury is addressed by our risk management policies. These policies clearly details required supervision levels, equipment checks, and operating guidelines to ensure the safe participation of all campers. As well, campers and staff alike are trained to recognize and respond in case of an emergency. This emergency procedure is practiced as a part of our staff training.</item>
+	<item>The Health &amp; Safety of my Camper|Are there medical staff on site?|There is a qualified medical person on staff, available 24 hours a day. Our leadership staff are trained in First Aid and CPR. We are 15 minutes away from a medical clinic and Brantford General Hospital.</item>
+	<item>The Health &amp; Safety of my Camper|What about medications that my child will need to take during camp?|All medication brought to camp MUST be kept by ranch staff, including vitamins, puffers and Tylenol. They must be labelled properly with medication name and directions for use. Prescription medication MUST be in the original container with user’s name printed on label. Your child is able to carry their puffer or epipen with them.  Please bring a second epipen or puffer to be checked in with the camp nurse.</item>
+	<item>The Health &amp; Safety of my Camper|How do you address food allergies?|Should your child have food allergies or require a modified diet (i.e. vegetarian), please contact us at least two weeks ahead of their arrival at the Ranch so we can send you a menu to review. After reviewing the menu, please bring any supplementary food items to camp that you feel are necessary.  Food items prepared at home will be stored in the fridge or freezer in the Ranch kitchen and warmed for your child at the appropriate meal.  Food should be clearly labelled with your child’s name. Circle Square Ranch will make every effort to accommodate allergies; however, we cannot guarantee that there will be no trace of an allergen in food served. We strive to be a nut free facility and do not knowingly serve foods containing nuts. We sell only nut free products in our store.</item>
+	<item>The Health &amp; Safety of my Camper|Do you have a nut and peanut policy?|Although Circle Square Ranch cannot guarantee to be entirely peanut-free, we neither serve nut products nor use them in food preparation.</item>
+	<item>The Health &amp; Safety of my Camper|Do campers wear helmets when riding?|We provide approved riding helmets, which all campers are required to wear when riding. Campers may bring their own approved riding helmet. No bike helmets please.</item>
+	<item>The Health &amp; Safety of my Camper|Are campers allowed to smoke on the property?|Circle Square Ranch is a smoke-free facility. Smoking by campers is prohibited.</item>
+	<item>The Health &amp; Safety of my Camper|How hot is too hot for normal activities to continue?|We take your child’s health very seriously and at times we need to modify our program due to extreme heat. Horseback riding may need to be cancelled if the temperature and humidity for the day are too high. We will reassess if it is safe to resume normal programming on an hour by hour basis.</item>
+	<item>Coming and Going to Camp (Arrival and Departure Days)|Can my child come to camp early?|We are unable to take early registration. If there is a pressing matter, please contact the office to see if other arrangements can be made. Additional fees may apply.</item>
+	<item>Coming and Going to Camp (Arrival and Departure Days)|Can my child be picked up by a different person than the one who dropped them off?|Yes. At sign in, please record the names of the individuals who are permitted to pick up your child. Staff may ask for identification prior to releasing campers.</item>
+	</string-array>
+	
+	<!-- who we are strings -->
+	<!-- item form: name|bio|fun_fact|photo_name -->
+	<string-array name="staff_bios">
+	<item>Steve &amp; Andrea Richardson|Directors|Steve&apos;s name at camp is Sheriff!|steve_andrea</item>
+	<item>Stevie Laidlaw &amp; Will Richardson|Discovery Camp Team|Stevie says he is the coolest Steve at camp. Will plays rugby and he is an all star at 2K.|will_stevie</item>
+	<item>Danielle Beal-Dixon &amp; Alysha Frey|Day Camp Directors|Danielle has really ticklish ears! Alysha went to Switzerland and stood on top of a 10,000 ft mountain!|danielle_alysha</item>
+	<item>Emma Richardson|Horsemanship Coordinator|Emma loves to travel!|emma</item>
+	<item>Tatiana Blackburn &amp; Josh Woodward|Adventure Coordinators|Tat owns a monkey named Jack🐵! Josh has gone down the zipline over 100 times!|tat_josh</item>
+	<item>Rachel Novoselac &amp; Jason Connelly|Senior Guards|Rachel really loves chili! Jason&apos;s three favourite sports are football, basketball, and baseball!|jason_rachel</item>
+	<item>Ellen Connelly|Camp Nurse|Ellen has a fake tooth!|ellen</item>
+	</string-array>
+	<string-array name="horse_bios">
+	<item>Babe|Babe is a bay pony mare who came to the Ranch in 2002.  She is a favorite with the day campers because she is so sweet and gentle.|Babe is Gracie&apos;s mom|babe_horse</item>
+	<item>JJ|JJ is an Egyptian Arab gelding.  He moved to the Ranch in 2004 when he was just a foal.  JJ was a strawberry color when he was young, but is now flea-bitten gray.|Egyptian Arab horses are famous for having excellent endurance.|jj_horse</item>
+	<item>Nina|Nina is a large pony mare.  She moved to the Ranch in September 2007.  Nina loves trail rides and is very brave.|Nina loves to take baths!|nina_horse</item>
+	<item>Patti|Patti is an appaloosa mare.  She has very unique spots and is always easy to see in the field.  Patti has lived at the Ranch since 2005.|Patti is missing her bottom front teeth, so her tongue is always hanging out!|patti_horse</item>
+	</string-array>
+	<string-array name="ranch_bio">
+	<item>Circle Square Ranch - Brantford|We love kids! We love watching them develop life-long friendships and seeing them discover that they can do more than they realize. We love listening to their laughter and watching them grow and mature as they discover how much God loves them. We love welcoming them back to camp, year after year.
+Circle Square Ranch Brantford was founded in 1985 and is committed to seeing young people transformed by the love of God actively at work in their lives. We are part of a network of nine Inter-Varsity camps across Canada operating under the names Circle Square Ranch and Pioneer Camps. Inter-Varsity Christian Fellowship has been providing summer camps and year-round programs for children, youth, young adults, and families since 1929.|In addition to our summer camp ministry, we also operate as a retreat centre from September to June. Visit our website for information on our retreat and school packages.|logo</item>
+	</string-array>
+	
+	<!-- make camp awesome strings -->
+	<!-- tips strings -->
+	<string name="tips_video_url">https://archive.org/download/electricsheep-flock-247-5000-1/00247=05011=05011=05011.mp4</string>
+	<string-array name="list_of_tips">
+	<item>Campers love to receive mail in our pony express, notes from Mom or Dad, Grandma or Grandpa.  Small nut free treats are great!</item>
+	<item>Be sure to use BRANT when using google maps, GPS, etc to come to camp.  Occasionally using Brantford will get you very lost.</item>
+	<item>Send a laundry bag for your camper to put dirty laundry in throughout the week.</item>
+	<item>If your child is nervous about sleeping away from home, have them practice sleeping overnight at someone&apos;s house.  Call it &apos;Camp Grandma&apos;, use the same suitcase they&apos;ll bring to camp, have a &apos;sign-in&apos; at the door.  Help them build successful overnight experiences at ‘camp’!</item>
+	<item>Campers don&apos;t have don&apos;t have to worry about eating dinner before they arrive on Sunday.  We serve dinner to campers at 6:00 pm.</item>
+	<item>Coming to daycamp? Don’t forget to pack your morning snack. Pack snacks that the kids can eat on the go.</item>
+	<item>Have your children help you pack their suitcases so they know where all the items are. If it is your child’s first time using a suitcase have them practice getting dressed out of it, practice where to put dirty laundry, etc.  Each camper will have ½ of the space under the bunk bed to store their belongings.  Some campers find two smaller suitcases easier to navigate than one large one.</item>
+	<item>Have your child practice applying sunscreen and bug spray.  We remind the campers to apply both regularly, and we&apos;ll help them when needed, but it&apos;s really beneficial when the campers can do it independently.</item>
+	<item>We understand that many families like to take a break from medication over the summer, however many of the activities at camp require listening attentively and following instructions. Some campers find it beneficial to take their medication while at camp.</item>
+	<item>Please be sure to register for our online photo service. Overnight campers will find details and a password in your conformation package. If you can’t find the package please call the office and we will be happy to help.</item>
+	<item>We encourage the campers to refill canteens with water at meal times. Some campers prefer to bring bottled water from home to drink. Our water is tested and monitored regularly by the Ministry of Environment and is completely safe to drink, but some children are not used to the taste of well water and prefer bottled water. You are welcome to send some bottles of water rather than having your child refill a canteen.</item>
+	<!-- theme meal strings -->
+	<string name="theme_meals_json_url">https://ranch.video/app/brantford/data/themeMeals.json</string>
+	
+	<!-- legal strings -->
+	<!-- item form: name|text -->
+	<string-array name="legal_variables">
+	<item>IVCF|Circle Square Ranch is a ministry of Inter-Varsity Christian Fellowship of Canada. Go to ivcf.ca for more information.</item>
+	<item>Music Copyright|CCLI #2722830, CCLI Stream #CSPL112650. Lyrics &amp; tune licensed under CCLI Stream License. Instrumental &amp; vocal recordings performed by Circle Square Ranch Staff &amp; Volunteers. See www.ccli.com for more information.</item>
+	<item>Statistics|Circle Square Ranch will collect non-identifying usage information. This information is used for improving app usability. If you have any questions please contact us.</item>
+	<item>Privacy Policy|Our Commitment
+Privacy Policy
+Inter-Varsity Christian Fellowship of Canada (hereinafter referred to as “Inter-Varsity”) is committed to protecting the privacy of its donors, supporters, employees and other stakeholders. We value the trust of those we deal with, and of the public, and recognize that maintaining this trust requires that we be transparent and accountable in how we treat the personal information that you choose to share with us.
+During the course of the various activities of Inter-Varsity, we frequently gather and use personal
+information. This information may be obtained directly from you or collected from third parties that have the right to disclose this information to us. Anyone from whom we collect such personal information should expect that it will be carefully protected and that any use of or other dealing with this personal information is subject to express or implied consent. Our privacy practices are designed to achieve this.
+Depending on where you live Inter-Varsity may not be under any statutory obligation with respect to the protection of the personal information that you provide to us. Notwithstanding this fact, Inter-Varsity has voluntarily decided to adhere to best practices for the collection, use and disclosure of personal information as outlined in this policy.
+Defining Personal Information
+Personal Information is information about an identifiable individual as defined in applicable Canadian privacy legislation. This includes any information that can be used to distinguish, identify or contact a specific individual. An individual’s opinions or beliefs, as well as facts about, or related to, the individual may also be considered personal information. Business contact information and certain publicly available information, such as names, addresses and telephone numbers as published in telephone directories, are not normally considered to be personal information.
+Where an individual uses his or her home contact information as business contact information as well, we consider the contact information provided to be business contact information, and therefore may not be subject to the same level of protection as personal information.
+What Personal Information Do We Collect?
+Personal information collected by Inter-Varsity may include: name, address and other contact information,
+credit card or bank account information for donation purposes, ministries an individual wishes to support, church affiliation, demographic information such as age and gender, and communication preferences for marketing purposes.
+How Do We Use and Disclose Your Personal Information?
+Inter-Varsity collects personal information in order to service your account, understand your giving preferences and provide you with relevant communications and marketing materials.
+We may share this information with Inter-Varsity employees for the purposes of marketing, research and analysis. In some cases it may be necessary to share the information with a third party service provider
+(such as payment processing) on a confidential basis. When this occurs, we provide only the information that is required to provide the services and strict terms of confidentiality are established and must be adhered to throughout the time required to complete the effort at hand. In certain limited circumstances, personal information collected by Inter-Varsity (excluding financial information) may be stored or processed outside of Canadian boundaries and therefore subject to the legal jurisdiction of those countries.
+Privacy Practices
+Personal information gathered by Inter-Varsity is kept in the strictest confidence. Our personnel are authorized to access personal information based only on their need to deal with it for the reason(s) for which it was obtained. Safeguards are in place to ensure that personal information is not disclosed or shared more widely than is necessary to achieve the purpose for which it was gathered. We contractually require any person or organization providing services to Inter-Varsity to comply with applicable federal and provincial
+privacy legislation. We also take measures to ensure that the integrity of personal information is maintained and retained only as long as it is required.
+We collect, use and disclose personal information only for purposes that a reasonable person would consider appropriate in light of the circumstances. We do not rent or sell personal information to any other organization.
+Web Site and Electronic Commerce
+We use password protocols to protect personal and other information we receive when a service is requested and/or paid for on-line. Our software is routinely updated to maximize protection of such information. The Inter-Varsity web site uses now or may use in the future technology features such as log-in registration, cookies, or click through tracking software. Our website also logs information such as web site IP addresses and browser types. This information is used for analysis purposes and to provide better service for users.
+Updating of Privacy Policy
+We regularly review our privacy practices for our various activities, and update our policy. Please check our web site on an ongoing basis for information on our most up-to-date practices.
+Access to Personal Information
+Subject to certain exceptions, which are provided for by applicable privacy legislation or by the Personal Information Protection and Electronic Documents Act, you have a right to be told what personal information we hold about you and to whom we may have disclosed that information. You also have a right to provide us with corrected information if you believe that any personal information we hold about you may be inaccurate. To find out more, you can contact Inter-Varsity’s Privacy Officer as described below.
+Contact Inter-Varsity Regarding Privacy Policies
+Questions, concerns or complaints relating to Inter-Varsity’s privacy policy on the treatment of personal information can be addressed by writing to:
+Attention: Privacy Officer,
+Inter-Varsity Christian Fellowship of Canada 1 International Blvd.
+Toronto, ON M9W 6H3
+
+Further information on privacy and your rights in regard to your personal information may be found on the web site of the Privacy Commissioner of Canada at http://www.privcom.gc.ca/.
+Mailing Lists and Newsletters
+Inter-Varsity offers opt-in mailing lists for both regular postal mail and electronic mail. Any personally identifiable information provided by you is used for the purpose of delivering ministry news, renewing your subscription, research and/or marketing. Users may choose to opt-out at any time by contacting our offices at 416-443-1170 or 1-800-668-9766 or by sending an email to webmaster@ivcf.ca.
+Contacting Inter-Varsity about Web Site Operations
+If you have any questions about the practices of this site, please contact Inter-Varsity
+By email: info@ivcf.ca
+
+By Mail:
+Inter-Varsity Christian Fellowship of Canada 1 International Blvd.
+Toronto, ON M9W 6H3
+By Phone: 416-443-1170 or 1-800-668-9766
+Inter-Varsity Christian Fellowship of Canada is a certified charity pursuant to the Canadian Council of Christian Charities Standards of Accountability
+(http://www.cccc.org/certified_charities_list/id/70104) Current as of May 9th 2016</item>
+
+	<!-- discounts strings -->
+	<!-- item form: name_of_section|name_of_item|description_of_item -->
+	<string-array name="discounts_variables">
+	<item>Summer 2016|Bring a Friend Rebate / Credit|We are giving up to $50 rebate on this summer’s registration fee or up to $75 credit toward next year’s camp for every NEW camper that you bring to camp. Some conditions apply.</item>
+	<item>Summer 2016|Family Discounts|Day Camp: 2nd child $15 off
+Junior Camp &amp; 252 Crew: 2nd child $40 off
+ Other Camps: 2nd child $50 off, 3rd child $100 off</item>
+	<item>Summer 2016|New Friend Discount|Is this your first time at Circle Square Ranch? Were you referred by a friend that is also coming to camp during Summer 2016? If you said “Yes” to both of these, you may be eligible to receive a “New Friend” discount on your camp fees! Some conditions apply, please contact the office for details. The discount breakdown is as follows:
+Referred to Day Camp: $20 off
+Referred to Junior or 252 Crew Camps: $30 off
+Referred to Discovery Camp: $40 off
+Referred to any other Camps: $50 off
+Please note: New Friend discounts cannot be used with any other offers.</item>
+	<item>Summer 2016|Multiple Week Discounts|Day Camp: 2nd week $15 off
+Junior Camp &amp;amp; 252 Crew: 2nd week $40 off
+Other Camps: 2nd week $50 off</item>
+	<item>Summer 2016|Parent Volunteers|Parent volunteers can save up to 50% on a week of camp for up to two children in their immediate family by serving at camp for a week in a support role.
+Support roles may include, but are not limited to, kitchen, maintenance, and housekeeping. Parent volunteers’ assigned role will be determined by the Camp Director. Please note that applications are subject to review and a discount will be applied upon parent volunteer application approval and after submitting a police check.
+**Discount value varies for Equestrian, LIT, &amp; Route 4:13 Camps</item>
+</resources>

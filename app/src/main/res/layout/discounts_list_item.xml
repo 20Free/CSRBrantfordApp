@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="17dp">
+
+    <TextView
+        android:id="@+id/discount_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:layout_below="@+id/discount_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap for Details"
+        android:textColor="@android:color/darker_gray"
+        style="@style/Base.TextAppearance.AppCompat.Small"/>
+
+</RelativeLayout>

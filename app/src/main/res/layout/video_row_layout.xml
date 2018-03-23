@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_toStartOf="@+id/playVideoLayout"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/videoTitle"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/videoDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/playVideoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/playVideo"/>
+
+        <TextView
+            android:id="@+id/playVideoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stream"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/playVideo"
+            android:layout_alignStart="@+id/playVideo"
+            android:layout_alignEnd="@+id/playVideo"
+            android:textSize="12sp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout for content of contact and directions -->
+<!-- all strings are stored in res/values/strings.xml -->
+<!-- all onClicks are listeners for methods in the java code -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.csrbrantford.csrbrantfordapp.contactDirections.ContactDirections"
+    tools:showIn="@layout/contact_directions_activity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_field"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c9ffffff"
+        android:id="@+id/firstLayout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thirdLayout">
+
+                <!-- CSR logo -->
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/logo_csr"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/csrLogo"
+                    android:background="@drawable/logo"
+                    android:layout_marginTop="15dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/instagramLayout"
+                    android:layout_below="@id/csrLogo"
+                    android:layout_alignParentStart="true">
+
+                    <!-- Instagram logo/link -->
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/instagramLogo"
+                        android:background="@drawable/logo_instagram"
+                        android:contentDescription="@string/logo_instagram"
+                        android:onClick="openInstagram" />
+
+                    <!-- Instagram text/link -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/instagramLogo"
+                        android:layout_centerInParent="true"
+                        android:text="@string/text_instagram"
+                        android:id="@+id/instagramLink"
+                        android:onClick="openInstagram"
+                        android:textColor="@android:color/holo_blue_dark"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facebookLayout"
+                    android:layout_below="@+id/csrLogo"
+                    android:layout_alignParentEnd="true">
+
+                    <!-- Facebook logo/link -->
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/facebookLogo"
+                        android:background="@drawable/logo_facebook"
+                        android:onClick="openFacebook"
+                        android:contentDescription="@string/logo_facebook" />
+
+                    <!-- Facebook text/link -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/facebookLogo"
+                        android:layout_centerInParent="true"
+                        android:text="@string/text_facebook"
+                        android:id="@+id/facebookLink"
+                        android:onClick="openFacebook"
+                        android:textColor="@android:color/holo_blue_dark"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twitterLayout"
+                    android:layout_below="@id/instagramLayout"
+                    android:layout_alignParentStart="true">
+
+                    <!-- Twitter logo/link -->
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/twitterLogo"
+                        android:background="@drawable/logo_twitter"
+                        android:onClick="openTwitter"
+                        android:contentDescription="@string/logo_twitter" />
+
+                    <!-- Twitter text/link -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/twitterLogo"
+                        android:layout_centerInParent="true"
+                        android:text="@string/text_twitter"
+                        android:id="@+id/twitterLink"
+                        android:onClick="openTwitter"
+                        android:textColor="@android:color/holo_blue_dark"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/httpLayout"
+                    android:layout_below="@id/facebookLayout"
+                    android:layout_alignParentEnd="true">
+
+                    <!-- Http image/link -->
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/httpLogo"
+                        android:background="@drawable/logo_http"
+                        android:onClick="openWebsite"
+                        android:contentDescription="@string/image_http" />
+
+                    <!-- Website text/link -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/httpLogo"
+                        android:layout_centerInParent="true"
+                        android:text="@string/text_website"
+                        android:id="@+id/httpLink"
+                        android:onClick="openWebsite"
+                        android:textColor="@android:color/holo_blue_dark"/>
+                </RelativeLayout>
+
+                <!-- Phone: text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_phone"
+                    android:id="@+id/phoneTitle"
+                    android:layout_below="@+id/emailLink"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Phone number text/link -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_number"
+                    android:id="@+id/phoneLink"
+                    android:layout_below="@+id/phoneTitle"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="callBrantfordCSR"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="15sp"/>
+
+                <!-- Email: text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_email"
+                    android:id="@+id/emailTitle"
+                    android:layout_below="@+id/addressLink"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Email text/link -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/brantford_email"
+                    android:id="@+id/emailLink"
+                    android:layout_below="@+id/emailTitle"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="emailBrantfordCSR"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="15sp"/>
+
+                <!-- Address text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_address"
+                    android:id="@+id/addressTitle"
+                    android:layout_below="@+id/httpLayout"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+
+                <!-- Address text/link-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/brantford_address"
+                    android:onClick="findBrantfordCSR"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/addressLink"
+                    android:layout_below="@+id/addressTitle"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"/>
+
+                <!-- IVCF logo -->
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/ivcfLogo"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/logo_ivcf"
+                    android:contentDescription="@string/logo_ivcf"
+                    android:layout_below="@+id/phoneLink"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/oefLogo"
+                    android:layout_below="@id/ivcfLogo"
+                    android:layout_alignParentStart="true"
+                    android:paddingTop="50dp"
+                    android:background="@drawable/logo_oef"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:id="@+id/ocaLogo"
+                    android:layout_toEndOf="@+id/oefLogo"
+                    android:layout_toStartOf="@+id/cciLogo"
+                    android:background="@drawable/logo_oca"
+                    android:layout_below="@id/ivcfLogo"
+                    android:paddingTop="50dp"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/cciLogo"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/logo_cci"
+                    android:layout_below="@id/ivcfLogo"
+                    android:paddingTop="50dp"/>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>
